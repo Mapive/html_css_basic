@@ -1,0 +1,17 @@
+.carrinho{
+    background-color: gray;
+    padding: 2vw;
+    margin: 2vw;
+}
+
+fieldset{
+    
+    padding: 2vw;
+    margin: 2vw;
+}
+
+table{
+    border: solid black;
+    padding: 2vw;
+    margin-left: 40vw;
+}

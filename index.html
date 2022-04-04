@@ -1,0 +1,91 @@
+<!--
+    
+    HTML BÁSICO
+
+    Tags e atributos globais mais utilizados
+
+    -header
+    -main
+    -aside
+    -footer
+    -div
+    -table
+    -ul/ol - li
+    -a href
+    -form
+    -input
+
+    -class(pode-se repetir)
+    -contenteditable
+    -hidden
+    -id(único, não se repete)
+    -tabindex(sequência desejada ao clicar "tab")
+    -title
+
+-->
+
+<!--class referencia-se no css com .class,
+    id referencia-se no css com #id
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>LOJA</h1>
+        <nav>
+            <a href="./cadastro.html">FAZER CADASTRO</a>
+            <a href="./estoque.html">VERIFICAR ESTOQUE</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="carrinho" contenteditable="true" id="cartBag" tabindex="1">
+            <h1>Carrinho de bolsas </h1>
+            <h2>Aqui estão as melhores bolsas: </h2>
+            <ul>
+                <li>
+                    <label for="bolsaPrada">Prada</label>
+                    <input type="checkbox" name="prada" id="bolsaPrada">
+                </li>
+                <li>
+                    <label for="bolsaGucci">Gucci</label>
+                    <input type="checkbox" name="gucci" id="bolsaGucci">
+                </li>
+            </ul>
+        </div>
+    
+        <div class="carrinho" contenteditable="true" id="cartHat" tabindex="2">
+            <h1>Carrinho de bonés</h1>
+            <h2>Aqui estão os melhores bonés: </h2>
+            <ul>
+                <li>
+                    <label for="boneNewEra">New Era</label>
+                    <input type="checkbox" name="newera" id="boneNewEra">
+                </li>
+                <li>
+                    <label for="boneRexpeita">Rexpeita</label>
+                    <input type="checkbox" name="rexpeita" id="boneRexpeita">
+                </li>
+            </ul>
+            
+        </div>
+    </main>
+
+    <footer>
+        <address>
+            <p>Marcos Pereira, <strong>BARRINHA-SP</strong></p>
+        </address>
+    </footer>
+
+</body>
+</html>
+
+
