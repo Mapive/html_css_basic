@@ -7,10 +7,24 @@
 
 }
 
+body{
+    background-color: rgb(7, 7, 7);
+}
+
+header, footer{
+    color: white;
+    
+}
+
+
+
 .carrinho{
-    background-color: gray;
+    background-color: white;
     padding: 2vw;
-    margin: 2vw;
+    margin: 1vw;
+    width: 36vw;
+   
+    
 }
 
 fieldset{
@@ -22,4 +36,12 @@ table{
     border: solid black;
     padding: 2vw;
     margin-left: 40vw;
+}
+
+.box{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1vw;
+    background-image: linear-gradient(crimson,black);
+    margin: 5vw;
 }
